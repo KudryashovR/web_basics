@@ -116,4 +116,4 @@ pubspec.lock
 # Маркировка ignored-внутри-ignore для repo
 !.gitignore
 
-.idea
+/.idea
