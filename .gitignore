@@ -1,0 +1,117 @@
+# Директории и файлы, специфичные для операционных систем
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.lock
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Директории сборки и зависимости
+node_modules/
+dist/
+build/
+out/
+coverage/
+.tmp/
+
+# Исключения для конкретных языков и фреймворков
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# .NET
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.obj
+*.so
+bin/
+obj/
+*.csproj.user
+*.sln.docstates
+
+# Ruby
+*.gem
+*.rbc
+.ruby-version
+.ruby-gemset
+.bundle/
+log/
+tmp/
+vendor/bundle/
+
+# PHP
+vendor/
+
+# React Native
+.expo/
+.expo-shared/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.idea/
+.buildlog/
+pubspec.lock
+.generated/
+
+# IDEs
+
+# VSCode
+.vscode/
+.history/
+
+# JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.)
+*.iml
+*.iws
+*.ipr
+*.cxx
+*.mxx
+
+# Sublime Text
+*.sublime-workspace
+
+# Eclipse
+.project
+.classpath
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln
+
+# Маркировка ignored-внутри-ignore для repo
+!.gitignore
